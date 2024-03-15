@@ -1,0 +1,71 @@
+html{
+  background-color: #436850;
+}
+
+.container{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+h1{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FBFADA;
+  font-style: oblique;
+  text-shadow:  #FBFADA 1px 0 10px;
+}
+.card{
+  background-color: #FBFADA;
+  border-radius: 30px;
+  width: 30%;
+  height: auto;
+  padding: 50px 20px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+#coconut-logo{
+  border-radius: 50%;
+  border: 2px solid #12372A;
+}
+.card__name{ 
+  font-weight: 800;
+  font-size: 32px;
+  font-family: "Madimi One", sans-serif;
+}
+.card__desc{
+  font-weight: 400;
+  color: rgba(19, 19, 19, 0.3);
+  font-style: italic;
+  margin-top: 0; 
+}
+.card__aboutme{
+  background-color: #436850;
+  border-radius: 30px;
+  color: #FBFADA;
+  padding: 10px 2px;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #FBFADA;
+  padding: 50px 10px;
+  padding-top: 100px;
+}
+.card__contact{
+  margin-top: 20px; 
+}
+.card__contact > a{
+  font-size: 50px;
+  color: #436850;
+ 
+}
+
+.card__contact > a:hover{
+  transition:cubic-bezier(1, 0, 0, 1);
+  color:#FBFADA;
+  size: 100px;
+}
